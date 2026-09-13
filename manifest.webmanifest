@@ -1,0 +1,33 @@
+{
+  "name": "Calm Campus Student Planner",
+  "short_name": "Calm Campus",
+  "description": "Offline-first academic and extracurricular student planner",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff8ee",
+  "theme_color": "#fff8ee",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Quick capture",
+      "url": "./index.html#home"
+    },
+    {
+      "name": "Assignments",
+      "url": "./index.html#assignments"
+    },
+    {
+      "name": "Study",
+      "url": "./index.html#study"
+    }
+  ]
+}

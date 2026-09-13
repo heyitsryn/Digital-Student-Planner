@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#fff8ee"><meta name="description" content="A calm, offline-first academic planner for students.">
+  <link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css"><title>Calm Campus Planner</title>
+</head>
+<body>
+<div id="app">
+  <aside class="sidebar">
+    <div class="brand"><div class="brandmark">CC</div><div><strong>Calm Campus</strong><small>student planner</small></div></div>
+    <nav id="nav"></nav>
+    <div class="side-actions"><button class="primary" data-action="quick">＋ Quick capture</button><button data-action="search">⌕ Search</button></div>
+    <div class="side-foot"><button id="installBtn" class="ghost hidden">Install app</button><button data-action="theme" class="ghost" aria-label="Toggle colour mode">◐ <span id="themeLabel">Auto</span></button></div>
+  </aside>
+  <header class="mobile-head"><div class="brandmark">CC</div><strong>Calm Campus</strong><button data-action="theme">◐</button></header>
+  <main id="main" tabindex="-1"></main>
+  <nav class="bottom-nav" id="bottomNav"></nav>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="modal"><form method="dialog" id="modalForm"><header><h2 id="modalTitle">Add item</h2><button value="cancel" class="icon-btn">×</button></header><div id="modalBody"></div><footer><button value="cancel">Cancel</button><button value="default" class="primary" id="modalSave">Save</button></footer></form></dialog>
+<script src="app.js"></script>
+</body></html>
