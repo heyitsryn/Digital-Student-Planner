@@ -34,3 +34,15 @@ Planner data is stored locally in the browser using localStorage. Use **More > E
 ## Notes
 - ICS import supports common VEVENT fields: DTSTART, SUMMARY and LOCATION. Complex recurring rules are not expanded.
 - Cross-device sync and authentication require a backend and are intentionally not included in this offline static build.
+
+
+## Version 2 additions
+- iPhone-safe modal dismissal using non-submit Cancel and Close controls, plus backdrop dismissal
+- Free-text subject entry with autocomplete and automatic subject creation
+- Water decrement control
+- Deadline-sorted assignments with low, medium and high priority
+- Professor directory
+- Holiday and reading-week class suppression
+- Important-day tracker
+- Archived semester planner with dates, colours and estimated GPA
+- Grade-needed calculator and grade-trend chart
